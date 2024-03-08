@@ -3,6 +3,7 @@ import "./HomePage.css";
 import NavBar from "./NavBar";
 import CarouselPage from "./CarouselPage";
 import About from "./About";
+import Services from "./Services";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <NavBar />
       <CarouselPage/>
       <About/>
+      <Services/>
 
     </div>
   );

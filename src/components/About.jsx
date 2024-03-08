@@ -3,6 +3,7 @@ import "./About.css";
 
 
 
+
 function About() {
   return (
     <div id="about">
@@ -33,7 +34,7 @@ function About() {
         <div className="row">
           <div className="col-md-4 about-col">
             <div className="about-content">
-              <i className="fa fa-history"></i>
+              <i className="fas fa-history"/>
               <h2>Our Story</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -45,7 +46,7 @@ function About() {
           </div>
           <div className="col-md-4 about-col">
             <div className="about-content">
-              <i className="fa fa-bullseye"></i>
+              <i className="fas fa-bullseye"/>
               <h2>Our Mission</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -57,7 +58,7 @@ function About() {
           </div>
           <div className="col-md-4 about-col">
             <div className="about-content">
-              <i className="fa fa-eye"></i>
+              <i className="fas fa-eye"/>
               <h2>Our Vision</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
