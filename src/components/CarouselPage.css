@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
+    
 }
 
 .carousel-caption{
@@ -56,4 +57,8 @@ body{
 .carousel-caption-button:hover{
     background: #3F69AA;
     color: #ffffff;
+}
+
+.slider-img{
+    filter: brightness(50%) !important;
 }

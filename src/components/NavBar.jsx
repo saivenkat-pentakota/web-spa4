@@ -13,13 +13,13 @@ function NavBar() {
     <nav className="navbar-container">
       <ul className={`nav-links ${isNavActive ? 'nav-active' : ''}`}>
         <li>
-          <a href="home">HOME</a>
+          <a href="#home">HOME</a>
         </li>
         <li>
-          <a href="aboutus">ABOUT US</a>
+          <a href="#about">ABOUT US</a>
         </li>
         <li>
-          <a href="ourservices">OUR SERVICES</a>
+          <a href="#services">OUR SERVICES</a>
         </li>
         <li>
           <a href="ourportfolio">OUR PORTFOLIO</a>

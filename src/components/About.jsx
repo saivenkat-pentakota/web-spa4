@@ -7,7 +7,7 @@ import "./About.css";
 function About() {
   return (
     <div id="about">
-      <div className="container-fluid">
+      <div className="container-fluid"> 
         <div className="section-header">
           <h2>Welcome to Our Website</h2>
         </div>

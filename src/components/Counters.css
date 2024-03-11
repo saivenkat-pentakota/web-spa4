@@ -1,0 +1,44 @@
+#counters {
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background: #3F69AA;
+}
+
+#counters .counter .counter-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding: 5px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+#counters .counter .number {
+    font-size: 70px;
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#counters .number:after {
+    color: #fff;
+    content: "+";
+    font-size: 40px;
+    position: absolute;
+    top: calc(50% + 25px);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#counters .counter h4 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
